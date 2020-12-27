@@ -109,7 +109,7 @@ jobs:
       with:
         name: Padavan-packages
         path: /opt/images
-          #上传到奶牛快传
+        #上传到奶牛快传
       - name: Upload firmware to cowtransfer
         id: cowtransfer
         if: steps.wetransfer.outputs.status == 'success'
